@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/homeItem">
+
+    <fragment
+        android:id="@+id/homeItem"
+        android:name="com.example.realsky.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/addItem"
+        android:name="com.example.realsky.ui.add.AddFragment"
+        android:label="@string/title_add"
+        tools:layout="@layout/fragment_add" />
+
+    <fragment
+        android:id="@+id/mypageItem"
+        android:name="com.example.realsky.ui.mypage.MypageFragment"
+        android:label="@string/title_mypage"
+        tools:layout="@layout/fragment_mypage" />
+
+    <fragment
+        android:id="@+id/commuItem"
+        android:name="com.example.realsky.ui.commu.CommuFragment"
+        android:label="@string/title_commu"
+        tools:layout="@layout/fragment_commu" />
+</navigation>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RealSky</string>
+    <string name="title_activity_bottom_menu">BottomMenuActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_add">Add</string>
+    <string name="title_commu">Commu</string>
+    <string name="title_mypage">Mypage</string>
+
+</resources>

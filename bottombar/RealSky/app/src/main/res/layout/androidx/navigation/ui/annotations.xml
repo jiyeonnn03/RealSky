@@ -1,0 +1,5 @@
+<root>
+    <item name='androidx.navigation.ui.NavigationUI'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>
